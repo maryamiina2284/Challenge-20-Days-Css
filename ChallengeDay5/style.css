@@ -1,0 +1,183 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(249, 236, 219);
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.balance {
+    background-color: hsl(20, 82%, 61%);
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+}
+
+.balance p {
+    font-size: small;
+    color: rgb(237, 234, 234);
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.balance .p2 {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.balance .shape1 {
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin-top: -13%;
+    margin-left: 210px;
+}
+.balance .shape2{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    margin-top: -10.5%;
+   right: 47px;
+}
+.spend{
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: 40%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.spend h3{
+    margin-left: -50px;
+}
+.spend .days{
+    position: absolute;
+    display: inline;
+    background-color: hsl(20, 82%, 61%);
+    border-radius: 2px;
+    width: 25px;
+}
+.spend .div1{
+    height: 20px;
+    margin-top: 70px;
+    left: 20px;
+}
+.spend .div2{
+    height: 40px;
+    margin-top: 50px;
+    left: 55px;
+}
+
+.spend .div3{
+    background-color: rgb(19, 180, 180);
+    height: 60px;
+    margin-top: 30px;
+    left: 90px;
+}
+.spend .div4{
+    height: 35px;
+    margin-top: 54px;
+    left: 125px;
+}
+.spend .div5{
+    height: 27px;
+    margin-top: 62px;
+    left: 160px;
+}
+.spend .div6{
+    height: 55px;
+    margin-top: 34px;
+    left: 195px;
+}
+.spend .div7{
+    height: 30px;
+    margin-top: 59px;
+    left: 230px;
+}
+.shapes .prg{
+    position: absolute;
+    display: inline;
+    color: gray;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 95px;
+}
+.shapes .prg1{
+    left: 23px;
+}
+.shapes .prg2{
+    left: 58px;
+}
+.shapes .prg3{
+    left: 93px;
+}
+.shapes .prg4{
+    left: 128px;
+}
+.shapes .prg5{
+    left: 161px;
+}
+.shapes .prg6{
+    left: 197px;
+}
+.shapes .prg7{
+    left: 235px;
+}
+hr{
+    margin-top: 130px;
+    margin-left: -10px;
+}
+.totalMonth{
+    margin-top: 20px;
+    font-size: small;
+}
+.totalMonth span{
+    font-weight: bold;
+}
+.pra1{
+    float: left;
+}
+.pra1 span{
+    font-size: 1.7em;
+    margin-left: 10px;
+}
+.pra2{
+    float: right;
+}
+.pra2 span{
+    margin-left: 60%;
+}
+
+
+
+
+

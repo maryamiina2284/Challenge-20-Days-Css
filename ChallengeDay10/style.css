@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: #262534;
+    box-shadow: 0px 3px 5px rgba(249, 247, 247, 0.929);
+    position: fixed;
+    width: 100%;
+}
+.header .logo {
+    color: darkgoldenrod;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.header nav a {
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.header nav a:hover {
+    color: darkgoldenrod;
+}
+
+section {
+    padding: 100px 5%;
+    min-height: 100vh;
+}
+section.home {
+    background: url(../Images/codechallengeimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 100vh;
+}
+section.home .text {
+    margin: auto;
+}
+
+section.home .text p {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: white;
+    line-height: 1.5;
+
+}
+section.home .text h3 {
+    font-size: 2em;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+section.home .text .btn {
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 10px ;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(247, 179, 6);
+    border: none;
+    border-radius: 2px;
+    margin-left: 30%;
+}
+section.home .text .btn:hover{
+    background: white;
+    color: black;
+}
+.heading {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+section>p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-container .box {
+    padding: 10px 15px;
+    width: 30%;
+    text-align: center;
+}
+.box-container .box i {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: rgb(247, 179, 6);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Service .box-container .box h3{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.box-container .box p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.Service{
+    background: white;
+}
+.portfolio{
+    background: rgb(243, 243, 253);
+}
+.portfolio .box-container{
+    align-items: center;
+}
+.portfolio .box-container .box{
+    padding: 0%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 25%;
+    background-color: white;
+    box-shadow: opx 3px 5px rgba(117, 116, 120, 0.929);
+    border-radius: 2px;
+}
+.portfolio .box-container .box img{
+    width: 100%;
+    min-height: 60%;
+    border-radius: 2px;
+}
+.portfolio .box-container .box p{
+    text-align: center;
+    color: gray;
+    margin-top: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+.contect{
+    background: rgb(243, 243, 253);
+    margin-bottom: -90%;
+}
+.contect .box-container .box {
+    width: 25%;
+
+}
+.contect .box-container .box img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.contect .box-container .box p{
+    text-align: center;
+    color: gray;
+    margin-top: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+.footer{
+    background: white;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p{
+    margin: 0;
+}
+
+
+
+

@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.top .imagetext{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(to top, white, rgb(220, 220, 249));
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.top .imagetext img{
+    width: 20%;
+    border-radius:5px ;
+}
+.top .imagetext .text{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.top .imagetext .text h2{
+    font-weight: bold;
+    padding: 10px;
+}
+.top .imagetext .text h2:after{
+    position: absolute;
+    content: "";
+    border-radius: 50px;
+    width: 30%;
+    border-top: 4px solid yellow;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.top .imagetext .text>p{
+    color: gray;
+    padding: 15px;
+    font-weight: bold;
+    font-size: small;
+}
+.top .imagetext .text .shape .div{
+    background-color: white;
+    color: darkblue;
+    font-weight: bold;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 2px;
+}
+.top .imagetext .text .shape .div span{
+    background-color: darkblue;
+    color: white;
+    padding: 0px 3px;
+    margin: 7px;
+    border-radius: 2px;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+.numbers .num{
+    margin: 50px;
+    margin-bottom: 150px;
+}
+.numbers .num h2{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.numbers .num p{
+    color: darkblue;
+    font-size: small;
+    font-weight: bold;
+}
+.middle{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to right , rgba(0,0,0,0.75), rgba(0,0,0,0.30)) ,url(../Images/codechallengeimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.middle .boxes{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: 25%;
+    position: absolute;
+    margin-bottom: 20%;
+    height: 150px;
+    top: -70px;
+}
+.middle .boxes .box{
+    background-color: darkblue;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.middle .boxes .box i{
+    color: white;
+    padding: 15px;
+}
+.middle .boxes .box h4{
+    font-weight: bold;
+    padding: 7px;
+}
+.middle .boxes .box p{
+    color: darkkhaki;
+    font-weight: bold;
+    font-size: small;
+}
+.middle .middletext{
+    width: 30%;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    margin-left: 30%;
+}
+.middle .middletext h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+.middle .middletext p{
+    color: darkkhaki;
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+}
+.middle .middletext button{
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.middle .middletext button:last-child{
+    background: transparent;
+    color: white;
+    margin-left: 10px;
+}
+.bottom{
+    width: 100%;
+    padding: 20px;
+}
+.bottom .members{
+    display: flex;
+    justify-content: center;
+}
+.bottom h3{
+    margin-left: 85px;
+    padding: 30px 0px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.bottom .members .member{
+    width: 20%;
+    background: white;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.bottom .members .member img{
+    width: 100%;
+    border-radius: 7px;
+}
+.bottom .members .member h4{
+    color: rgb(65, 63, 63);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+}
+.bottom .members .member p{
+    color: rgb(65, 63, 63);
+    font-size: small;
+    font-weight: bold;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 86%;
+    margin-top: 20px;
+    margin-left: 85px;
+
+}
+
+

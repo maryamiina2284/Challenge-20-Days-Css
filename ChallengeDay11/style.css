@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top ,  rgba(139, 138, 138, 0.35), rgba(253, 253, 253, 0.2)) ,url(../Images/profileimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 60%;
+    height: 70vh;
+    background:linear-gradient(to right ,  rgba(21, 21, 21, 0.95), rgba(65, 61, 61, 0.2)), url(../Images/profileimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 20px 20px rgba(33, 31, 31, 0.95);
+    margin-top: 8%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #1b1b1b;
+    box-shadow: 0px 3px 5p rgba(0,0,0,0.25);
+    padding: 20px;
+}
+.header nav a{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.header nav a:hover{
+    color: rgb( 6, 138, 190);
+}
+.header .icons i{
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.header .icons i:hover{
+    color: rgb( 6, 138, 190);
+}
+.main{
+    margin: 15% 70px;
+    padding: 20px;
+    color: #fff;
+}
+.main h2{
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+.main p{
+    padding: 20px 0px;
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+}
+.main .btn{
+    padding: 10px 27px;
+    border: 1px solid gray;
+    border-radius: 17px;
+    background: transparent;
+    color: gray;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.main .btn:hover{
+    background: rgb( 6, 138, 190);
+    color: #fff;
+    border: none;
+}

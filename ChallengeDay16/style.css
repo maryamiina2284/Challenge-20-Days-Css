@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(220, 239, 227);
+
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: rgb(74, 113, 74);
+    padding: 5px;
+    color: white;
+    font-size: small;
+    border-radius:10px 10px 0px 0px;
+}
+.top p{
+    margin-left: 35%;
+    text-align: center;
+}
+.top i{
+    color: white;
+    margin-right: 10px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.header .logo{
+    color: rgb(245, 150, 7);
+    font-size: 2em;
+    font-weight: bold;
+}
+.header nav{
+    padding-top: 15px;
+}
+.header nav a{
+    margin-right: 15px;
+    color: #666;
+    font-weight: bold;
+}
+.right{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.right .icons i{
+    margin-right: 10px;
+    padding-top: 10px;
+    color: #000;
+}
+.btn{
+    padding: 10px 7px;
+    background: transparent;
+    border: 2px solid rgb(245, 150, 7); 
+    border-radius: 5px;
+    font-weight: bold;
+    color:rgb(245, 150, 7) ;
+}
+p i{
+    padding: 5px;
+}
+.btn i{
+    font-weight: bold;
+    color:rgb(245, 150, 7) ;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 60px;
+}
+.main .text{
+    flex: 0 1 45%;
+    padding-top: 40px;
+}
+.main .text h3{
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+.main .text p{
+    padding: 10px;
+}
+.main .text h4{
+    font-weight: bold;
+    padding: 10px;
+}
+.main .text .btn{
+    margin: 10px;
+}
+.main .image{
+    flex: 0 1 45%;
+}
+.main .image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.packages{
+    background-color: beige;
+    width: 100%;
+}
+.packages h3{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    /* padding: 20px; */
+    padding: 60px;
+}
+.packages .boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs .box{
+    width: 20%;
+    padding: 10px;
+    margin-right: 30px;
+    background: white;
+    margin-bottom: 20px;
+}
+.boxs .box img{
+    width: 100%;
+}
+.boxs .box h4{
+    padding: 10px;
+}
+.boxs .box p{
+    padding: 10px;
+}
+.boxs .box h3{
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+}
+.packages .btn{
+    padding: 10px 15px;
+    margin: 30px 45%;
+    background: white;
+}

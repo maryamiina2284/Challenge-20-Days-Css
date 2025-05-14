@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafe {
+    width: 400px;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.image img {
+    width: 100%;
+}
+
+.cafe-body {
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.rating-percent {
+    display: flex;
+    align-self: center;
+    margin-top: 6px;
+}
+
+.rating-percent .star-size {
+    font-size: 12px;
+    color: darkorange;
+}
+
+.rating-percent .rating {
+
+    margin: 0px 8px;
+    color: gray;
+}
+.cafesomali{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.description{
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.availavility-title{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.available-schedule .schedule{
+    list-style: none;
+    color: gray;
+    display: flex;
+    /* margin: 0px ; */
+    cursor: pointer;
+}
+.schedule-list{
+    background-color: #e2e2e2;
+    border-radius: 35px;
+    padding: 10px 16px;
+    margin: 4px;
+}
+.schedule-list:hover{
+    color: #7515AB;
+    background: #e3bbff;
+}
+.reserve{
+    font-weight: bold;
+    padding: 1opx;
+    border: none;
+    background: none;
+    margin-top: 30px;
+}
+.reserve a{
+    text-decoration: none;
+    color: #1709e0;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: lavender;
+}
+.summary{
+    width: 25%;
+    height: 30%;
+    border-radius:20px;
+    margin: 50px auto;
+    background-color: white;
+}
+.summary img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.summary h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px;
+}
+.summary p{
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    color: gray;
+}
+.summary .Annual{
+    position: relative;
+    margin: 20px;
+    background-color: rgb(243, 243, 251);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.Annual i{
+    display: table;
+    content: "";
+    position: absolute;
+    background-color: lavender;
+    color: rgb(92, 91, 91);
+    padding: 12px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+.Annual p{
+    font-weight: bold;
+    color: black;
+    margin-right: 25px;
+}
+.Annual p span{
+    color: gray;
+    text-align: center;
+}
+.Annual a{
+    color: rgba(9, 9, 132, 0.831);
+    font-weight: bold;
+    float: right;
+    margin-top: -15%;
+}
+.summary .btn{
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(7, 7, 193, 0.826);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -3px 15px 15px rgba(193, 193, 250, 0.8);
+}
+.summary .cancel{
+    font-weight: bold;
+    padding-bottom: 10%;
+}

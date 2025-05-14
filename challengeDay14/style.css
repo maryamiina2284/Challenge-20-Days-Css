@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    background: rgb(30, 30, 58);
+    margin: 50px 0px;
+    color: white;
+    position: relative;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.header .logo{
+    position: relative;
+}
+.header .logo img{
+    width: 100px;
+}
+.header .logo span{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    color: rgb(220, 134, 5);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.header nav{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.header nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: lightgray;
+    padding-bottom:5px;
+    border-bottom: 2px solid transparent;
+}
+.header nav a:hover{
+    border-bottom: 2px solid rgb(220, 134, 5);
+    color: white;
+}
+.main{
+    margin-top: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+}
+.left h2{
+    font-size: 2.5em;
+    color: rgb(220, 134, 5);
+    margin-bottom: 10px;
+}
+.left span{
+    color: white;
+}
+.left input{
+    width: 260px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.left .btn{
+    padding: 7px 15px;
+    background:rgb(220, 134, 5) ;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 55px;
+    border: none;
+    border-radius: 15px;
+}
+.right{
+    width: 35%;
+    margin-top: -100px;
+    margin-right: -40px;
+}
+.right img{
+    width: 100%;
+}
+.container p{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    color: lightgray;
+}

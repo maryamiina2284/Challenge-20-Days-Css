@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 203, 203);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(20, 20, 65);
+    padding: 20px;
+    color: white;
+}
+.welcm{
+    margin: 20px;
+    text-align: left;
+    padding: 18px;
+}
+.welcm .p1{
+    font-weight: lighter;
+    font-size: 2em;
+    color: rgb(222, 217,217);
+}
+.welcm span{
+    font-weight: bold;
+    /* font-size: 1em; */
+    color: white;
+}
+.welcm p{
+    font-size: small;
+    color: rgb(184, 180, 180);
+    margin-top: 20px;
+}
+.course{
+    text-align: center;
+    margin: 0 30px;
+    width: 250px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: -20%;
+    float: right;
+}
+
+.html{
+    border-radius: 10px;
+    background-color: rgb(58, 58, 99);
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.css{
+    border-radius: 10px;
+    background-color: rgb(58, 58, 99);
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.javaScript{
+    border-radius: 10px;
+    background-color: rgb(58, 58, 99);
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.access{
+    border-radius: 10px;
+    background-color: rgb(58, 58, 99);
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.course i{
+    position: absolute;
+    background-color: aliceblue;
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: -13%;
+    
+}
+.html i{
+    color: rgb(251, 177, 39);
+    font-weight: bold;
+    background-color: rgb(241, 250, 241);
+}
+.css i{
+    color:rgb(99, 176, 99);
+    font-weight: bold;
+    background-color: rgb(253, 246, 234);
+}
+.javaScript i{
+    color: rgb(43, 43, 133);
+    font-weight: bold;
+    background-color: rgb(211, 211, 250);
+}
+.access i{
+    color: rgb(159, 10, 159);
+    font-weight: bold;
+    background-color: rgb(252, 238, 252);
+}
+

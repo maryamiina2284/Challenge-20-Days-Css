@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --primaryColor: #ff6f28;
+    --secondaryColor: #f4f4f4;
+    --black: #0c0c0c;
+}
+body {
+    width: 100%;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.30)), url(../Images/coding.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    cursor: pointer;
+}
+.header .topbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+.header .topbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 25px;
+    float: left;
+    width: 20%;
+}
+.header .topbar .logo .fas {
+    color: var(--primaryColor);
+    background: none;
+}
+.header .topbar .logo span {
+    color: var(--primaryColor);
+}
+.header .call {
+    position: absolute;
+    float: left;
+    padding: 20px 25px;
+    margin-left: 75%;
+}.header .call .fa{
+    font-size: 1.5em;
+}
+.header .call {
+    font-size: small;
+}
+
+.header .main {
+    clear: both;
+    width: 35%;
+}
+.header .main h3 {
+    color: white;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: 250px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+.header .main p {
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.contectUs {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 60%;
+    background: var(--primaryColor);
+    margin-top: -320px;
+}
+.contectUs h3{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.contectUs p{
+    font-size: small;
+    margin-bottom: 30px;
+}
+.contectUs p:after{
+    position: absolute;
+    content: "";
+    border-radius: 51px;
+    width: 30%;
+    border-top: 4px solid var(--secondaryColor) ;
+    bottom: 370px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.inputs input{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid rgb(228, 225, 225);
+    margin-left: -4px;
+}
+.inputs .fas{
+    height: 35px;
+    padding: 8px;
+    background-color: rgb(244, 238, 238);
+    color: var(--black);
+}
+#message{
+    width: 230px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(228, 225, 225);
+}
+.btn{
+    width: 130px;
+    border: none;
+    color: var(--black);
+    background-color: var(--secondaryColor);
+    padding: 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.secondsection{
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    display: table;
+    content: "";
+    position: relative;
+    text-align: center;
+}
+.secondsection div{
+    width: 300px;
+    height: 200px;
+    margin: 50px  20px;
+    float: left;
+    position: relative;
+    box-shadow: 7px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.secondsection i{
+    margin-top: 30px;
+    margin-left: -20%;
+}
+.secondsection span{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.secondsection p{
+    font-size: small;
+    margin: 20px 60px;
+    text-align: justify;
+}
+.secondsection .buyhome{
+    text-align: center;
+    background-color: var(--secondaryColor);
+    margin-left: 15%;
+}
+.secondsection .refanancing{
+    text-align: center;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+.secondsection .service{
+    text-align: center;
+    background-color: var(--black);
+    color: var(--secondaryColor);
+
+}
