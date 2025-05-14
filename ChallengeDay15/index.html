@@ -1,45 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChallengeDay15</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChallengeDay15</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="startlearning">
-            <div class="header">
-                <span>&#8801;</span>
-                <h3><span>E</span> duca</h3>
-               <i class="fa fa-user"></i>
-            </div>
-            <div class="title">Start learning <br> your skill!!</div>
-            <div class="steps">
-                <div class="step">
-                    <h3> &#128536 <br> <span>Step1:</span> Why learning is important?</h3>
-                    <button class=" btn btn1">Read</button>
-                </div>
-                <div class="step">
-                    <h3> &#128536 <br> <span>Step1:</span> Why learning is important?</h3>
-                    <button class=" btn ">Read</button>
-                </div>
-                <div class="step">
-                    <h3> &#128536 <br> <span>Step1:</span> Why learning is important?</h3>
-                    <button class=" btn ">Read</button>
-                </div>
-            </div>
+  <div class="container">
+    <div class="startlearning">
+      <div class="header">
+        <span>&#8801;</span>
+        <h3><span>E</span>ducation</h3>
+        <i class="fa fa-user"></i>
+      </div>
+      <div class="title">Start learning <br> your skill!!</div>
+      <div class="steps">
+        <div class="step">
+          <h3> &#128536 <br> <span>Step1:</span> Why learning is important?</h3>
+          <button class="btn btn1">Read</button>
         </div>
-        <div class="tutorial">
-            <div class="tutorial-title">
-                HTML & CSS basic <br> tutorial for free
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <i class="fa fa-play"></i>
+        <div class="step">
+          <h3> &#128536 <br> <span>Step2:</span> Build habits for success</h3>
+          <button class="btn">Read</button>
         </div>
-
+        <div class="step">
+          <h3> &#128536 <br> <span>Step3:</span> Practice and apply daily</h3>
+          <button class="btn">Read</button>
+        </div>
+      </div>
     </div>
+
+    <div class="tutorial">
+      <div class="tutorial-title">
+        HTML & CSS basic <br> tutorial for free
+      </div>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <i class="fa fa-play"></i>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title">Step Title</h2>
+      <p id="modal-text">Step Description</p>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    const modal = document.getElementById("modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalText = document.getElementById("modal-text");
+    const closeButton = document.querySelector(".close-button");
+    const readButtons = document.querySelectorAll(".btn");
+
+    const stepDetails = [
+      {
+        title: "Why learning is important?",
+        text: "Learning improves your skills, builds your confidence, and opens new doors. It's essential for personal growth and professional success."
+      },
+      {
+        title: "Build habits for success",
+        text: "Success comes from consistent small efforts. Build daily habits that align with your goals and stay focused."
+      },
+      {
+        title: "Practice and apply daily",
+        text: "Knowledge becomes power when applied. Make time each day to practice what you learn and track your progress."
+      }
+    ];
+
+    let lastOpened = null;
+
+    readButtons.forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        if (lastOpened === index && !modal.classList.contains("hidden")) {
+          modal.classList.add("hidden");
+          lastOpened = null;
+        } else {
+          modalTitle.textContent = stepDetails[index].title;
+          modalText.textContent = stepDetails[index].text;
+          modal.classList.remove("hidden");
+          lastOpened = index;
+        }
+      });
+    });
+
+    closeButton.addEventListener("click", () => {
+      modal.classList.add("hidden");
+      lastOpened = null;
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.add("hidden");
+        lastOpened = null;
+      }
+    });
+  </script>
 </body>
 </html>

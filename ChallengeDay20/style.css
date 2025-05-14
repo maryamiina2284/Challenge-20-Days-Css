@@ -91,5 +91,13 @@ body{
     flex: 0 1 45%;
 }
 .main .image img{
-    width: 100%;
+    width: 70%;
+    border-radius: 400px;
+    box-shadow: 0px 0px 10px 5px hsl(20.5 90.2% 48.2%);
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 8px;
+
 }

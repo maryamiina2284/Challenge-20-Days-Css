@@ -1,66 +1,78 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(188, 188, 251);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     width: 35%;
     background-color: white;
     border-radius: 20px;
     margin-top: 50px;
     padding: 15px;
 }
-.startlearning{
+
+.startlearning {
     width: 100%;
     background-color: rgb(222, 216, 254);
     border-radius: 20px;
     padding: 10px;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     padding: 20px;
 }
-.header >span{
+
+.header > span {
     font-size: 2em;
     margin-top: -3px;
 }
-.header h3{
+
+.header h3 {
     font-size: 1.5em;
 }
-.header h3 span{
+
+.header h3 span {
     color: rgb(107, 5, 203);
 }
-.startlearning .title{
+
+.startlearning .title {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
     padding: 30px;
 }
-.steps{
+
+.steps {
     display: flex;
     justify-content: space-between;
 }
-.steps .step{
+
+.steps .step {
     width: 40%;
     padding: 10px;
     background-color: white;
     margin: 30px 10px;
     border-radius: 10px;
 }
-.steps .step span{
+
+.steps .step span {
     color: rgb(107, 5, 203);
     font-weight: bold;
 }
-.steps .step .btn{
+
+.steps .step .btn {
     width: 110px;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -71,30 +83,35 @@ body{
     color: white;
     font-weight: bold;
 }
-.steps .step .btn1{
+
+.steps .step .btn1 {
     background-color: transparent;
     color: blue;
     border: 2px solid blue;
 }
-.tutorial{
+
+.tutorial {
     position: relative;
     margin-top: 20px;
     padding: 30px;
     background-color: rgb(206, 206, 253);
     border-radius: 20px;
 }
-.tutorial-title{
+
+.tutorial-title {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.tutorial p{
+
+.tutorial p {
     color: #666;
 }
-.tutorial .fa{
+
+.tutorial .fa {
     position: absolute;
     right: 20px;
-    top:80px;
+    top: 80px;
     background-color: white;
     width: 40px;
     height: 40px;
@@ -104,4 +121,40 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
