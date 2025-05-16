@@ -58,9 +58,27 @@ You can preview any project locally by opening its `index.html` file in a browse
 | Day 11    |                                             |      |
 
 
+🤝 Contributing
+This project is a solo journey, but you’re welcome to:
 
-📬 Contributing
-This is a personal challenge, but you're welcome to fork and try your own 20-day version!
-If you find a bug or want to suggest a new idea, feel free to open an issue or pull request.
+Fork and take the challenge yourself 💪
+
+Share ideas and improvements
+
+Use any of the code in your own projects (with credit)
+
+🙌 Acknowledgements
+Inspired by Frontend Mentor, Codewell, CodePen, and similar CSS UI challenges
+
+Thanks to the open-source community for continuous inspiration!
+
+🔗 Connect With Me
+If you like this project or want to collaborate:
+
+GitHub: https://github.com/maryamiina2284
+
+Gmail: maryamiinaruun6@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/maryamo-ahmed-mohamoud
 
 
